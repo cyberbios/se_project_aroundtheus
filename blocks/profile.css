@@ -1,0 +1,19 @@
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile__title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.profile__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.profile__description {
+  flex-grow: 1;
+}
