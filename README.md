@@ -5,6 +5,7 @@
 * Intro  
 * Figma  
 * Images  
+* Link to the project: https://cyberbios.github.io/se_project_aroundtheus/
   
 **Intro**
   
