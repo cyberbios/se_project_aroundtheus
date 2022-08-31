@@ -1,11 +1,14 @@
 .profile {
+  max-width: 880px;
   display: flex;
   align-items: center;
   margin: 0 200px 51px 200px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .profile__title {
+  max-width: 373px;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
@@ -13,6 +16,7 @@
 }
 
 .profile__subtitle {
+  max-width: 415px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22.78px;

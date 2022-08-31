@@ -8,6 +8,11 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 0;
+  flex-wrap: wrap;
+}
+
+.profile__button:hover {
+  border: 2px solid #0652f5;
 }
 
 .edit__button {
@@ -21,6 +26,10 @@
   padding: 0;
   margin-right: 165px;
   margin-top: -30px;
+}
+
+.edit__button:hover {
+  border-color: #0652f5;
 }
 
 .heart {
