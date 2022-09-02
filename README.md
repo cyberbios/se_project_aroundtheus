@@ -2,9 +2,12 @@
 
 ### Overview  
 
-* Intro  
-* Figma  
-* Images  
+* Intro - Studies on grid layouts, font settings, vectors, on different screen sizes and for small, medium and large devices with different operacional systems.  
+
+* Figma - Shared work concepts on Figma platform for developing screen models in different sizes.
+
+* Images - How to work with images and rendering for screen sizes from very small to super large, using vectors - Image extension (.svn). 
+
 * Link to the project: https://cyberbios.github.io/se_project_aroundtheus/
   
 **Intro**
