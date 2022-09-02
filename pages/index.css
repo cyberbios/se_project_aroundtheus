@@ -19,7 +19,7 @@
     padding-top: 26.25px;
   }
 
-  .profile__button__edit {
+  .profile__button-edit {
     width: 18px;
     height: 18px;
   }
@@ -65,7 +65,7 @@
     overflow: hidden;
   }
 
-  .profile__button__edit {
+  .profile__button-edit {
     width: 18px;
     height: 18px;
     margin-left: 10px;
