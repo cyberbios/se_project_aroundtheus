@@ -15,7 +15,7 @@
   border: 2px solid #0652f5;
 }
 
-.button__edit {
+.profile__button_edit {
   width: 24px;
   height: 24px;
   border-color: #fff;
@@ -28,7 +28,7 @@
   margin-top: -30px;
 }
 
-.button__edit:hover {
+.profile__button_edit:hover {
   border-color: #0652f5;
 }
 
