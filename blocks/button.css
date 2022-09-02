@@ -15,7 +15,7 @@
   border: 2px solid #0652f5;
 }
 
-.edit__button {
+.button__edit {
   width: 24px;
   height: 24px;
   border-color: #fff;
@@ -28,7 +28,7 @@
   margin-top: -30px;
 }
 
-.edit__button:hover {
+.button__edit:hover {
   border-color: #0652f5;
 }
 
