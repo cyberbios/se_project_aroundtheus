@@ -1,5 +1,5 @@
 .cards {
-  max-width: 880px;
+  max-width: 100%;
   margin: 0 200px auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
@@ -8,14 +8,14 @@
 }
 
 .cards__content {
-  width: 100%;
+  width: 282px;
   height: 361px;
   background-color: #fff;
   border-radius: 10px;
 }
 
 .cards__footer {
-  width: 100%;
+  width: 282px;
   height: 79px;
   font-weight: 900;
   font-size: 24px;
