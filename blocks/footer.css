@@ -1,9 +1,18 @@
 .footer {
-  width: 318px;
-  height: 18px;
+  margin: 0;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.78px;
+  line-height: 22px;
   color: #545454;
-  padding: 67px 762px 60px 200px;
+  padding-top: 67px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 48px 19px 36px 19px;
+  }
 }
