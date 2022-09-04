@@ -55,9 +55,8 @@
     height: 50px;
     background-color: #000;
   }
-}
-
-.profile__edit {
-  margin-left: 20px;
-  background-image: url(../images/Edit_Button.png);
+  .profile__edit {
+    margin-left: 20px;
+    background-image: url(../images/Edit_Button.png);
+  }
 }
