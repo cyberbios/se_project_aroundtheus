@@ -34,6 +34,17 @@
   line-height: 29px;
 }
 
+.heart {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.heart:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 500px) {
   .cards {
     grid-template-columns: 1fr;

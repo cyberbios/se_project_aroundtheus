@@ -1,4 +1,4 @@
-.footer {
+.footer__copywrite {
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .footer {
+  .footer__copywrite {
     font-size: 14px;
     line-height: 17px;
     padding: 48px 19px 36px 19px;
