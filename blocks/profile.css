@@ -30,6 +30,9 @@
   line-height: 100%;
   margin: 0px;
   padding-top: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .profile__description {
@@ -60,6 +63,7 @@
 
 .profile__button:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .profile__edit {
@@ -76,6 +80,7 @@
 
 .profile__edit:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
@@ -104,9 +109,9 @@
   .profile__subtitle {
     font-size: 14px;
     line-height: 17px;
-    margin-top: 14px;
     margin-bottom: 36px;
     max-width: 250px;
+    padding: 0;
   }
   .profile__title {
     font-size: 22px;
@@ -114,19 +119,29 @@
     text-align: center;
     padding: 0;
   }
+
   .profile__description {
     align-items: center;
     text-align: center;
   }
+
+  .profile__description-title {
+    padding: 26.25px 34px 14px 62px;
+  }
+
   .profile__avatar {
     margin-right: 0;
   }
 
   .profile__button {
-    width: 282px;
+    width: 100%;
     background-position: 50%;
+    margin: 0;
   }
   .profile__edit {
-    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    margin-right: 0;
+    margin-left: 10px;
   }
 }

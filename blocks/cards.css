@@ -34,15 +34,16 @@
   line-height: 29px;
 }
 
-.heart {
+.cards__heart {
   background-color: transparent;
   border: none;
   padding: 0;
   margin-right: 20px;
 }
 
-.heart:hover {
+.cards__heart:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
