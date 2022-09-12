@@ -87,12 +87,18 @@
   .profile__title {
     text-align: center;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .profile {
     margin: 0 auto;
   }
   .profile__subtitle {
-    text-align: center;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .profile__edit {
@@ -112,12 +118,18 @@
     margin-bottom: 36px;
     max-width: 250px;
     padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .profile__title {
     font-size: 22px;
     line-height: 27px;
     text-align: center;
     padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .profile__description {
