@@ -102,6 +102,8 @@
 
   .profile__edit {
     margin-right: 20px;
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -115,7 +117,7 @@
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 36px;
-    max-width: 250px;
+    max-width: 282px;
     padding: 0;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -126,6 +128,7 @@
     line-height: 27px;
     text-align: center;
     padding: 0;
+    max-width: 282px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
